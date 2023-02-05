@@ -1,0 +1,33 @@
+.google-visualization-table {
+    text-align: center;
+  }
+  
+#select-stats {
+    width:360px;
+    height: 50px;
+    font-size: 20;
+    text-align: center;
+    color: darkblue;
+    background-color: lightgray;
+    margin-top: 10px;
+}
+  
+#tab-1 {
+    display: flex; 
+    justify-content: center; 
+    text-align: center;
+    flex-direction: column; 
+    background-color: lightblue; 
+    border: none;
+    margin-top: 10px;
+ }
+  
+#tab-2 {
+      background-color: lightblue; 
+      border: none;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
