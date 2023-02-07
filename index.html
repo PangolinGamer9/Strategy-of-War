@@ -4,11 +4,13 @@
 
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width,initial-scale=1" >
+    
 </head>
 
 <body>
-
-   <nav class="navbar">
+    <script type="text/javascript" src="wz_tooltip.js"></script>
+    
+    <nav class="navbar">
         
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -35,6 +37,6 @@
     <main class = "main-page" style = "text-align: center">
         <h1 class="title">A Stat Tracker for Strategy of War</h1>
 
-        <p class="main-text">Use the sidebar and tabs for navigation</p>
+        <p class="main-text" onmouseover="Tip('Some Text')" onmouseout="UnTip()">Use the sidebar and tabs for navigation</p>
     </main>
 </body>
